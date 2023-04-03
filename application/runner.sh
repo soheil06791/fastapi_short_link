@@ -1,0 +1,1 @@
+$(nohup uvicorn main_server:app --reload --host 0.0.0.0 > nohup.out &)
